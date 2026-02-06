@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()  {
+    int n,k,c;
+    scanf("%d%d",&n,&k);
+    c=n+(n-1)/(k-1);
+    printf("%d", c);
+}
